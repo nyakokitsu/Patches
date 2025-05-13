@@ -13,10 +13,10 @@ index a651d1a3a4dbaafd5d37f857b1c6e7178e2de717..2801db61afb6b99a1ee21c242c8e961a
      <string name="ic_Repeat"></string>
      <string name="ic_ApplicationLaunch"></string>
 -    <string name="app_name">Minecraft Earth</string>
-+    <string name="app_name">Project Earth</string>
++    <string name="app_name">Chikyu</string>
      <string name="xperiaplayoptimized_content">true</string>
 -    <string name="app_name_short">Minecraft Earth</string>
-+    <string name="app_name_short">Project Earth</string>
++    <string name="app_name_short">Chikyu</string>
      <string name="facebook_app_id" />
      <string name="hockeyapp_android_id" />
      <string name="com_appboy_api_key" />
