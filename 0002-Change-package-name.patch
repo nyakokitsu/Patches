@@ -15,6 +15,7 @@ index ad26598b87d629d58532e6f5a2da03dcca9a1227..b97d9d1bc1535728704d1928b0bb2225
    xmlns:android="http://schemas.android.com/apk/res/android">
      <uses-feature android:glEsVersion="0x20000" android:required="true" />
      <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
++    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />     
 @@ -130,7 +130,7 @@
                  <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
              </intent-filter>
