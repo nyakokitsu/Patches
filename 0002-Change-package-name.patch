@@ -11,7 +11,7 @@ index ad26598b87d629d58532e6f5a2da03dcca9a1227..b97d9d1bc1535728704d1928b0bb2225
 @@ -1,5 +1,5 @@
  <?xml version="1.0" encoding="utf-8"?>
 -<manifest android:versionCode="2020121703" android:versionName="0.33.0" android:installLocation="preferExternal" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.mojang.minecraftearth" platformBuildVersionCode="29" platformBuildVersionName="10"
-+<manifest android:versionCode="2020121703" android:versionName="0.33.0" android:installLocation="preferExternal" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="dev.projectearth.prod" platformBuildVersionCode="29" platformBuildVersionName="10"
++<manifest android:versionCode="2020121703" android:versionName="0.33.0" android:installLocation="preferExternal" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="nyako.chikyu.release" platformBuildVersionCode="29" platformBuildVersionName="10"
    xmlns:android="http://schemas.android.com/apk/res/android">
      <uses-feature android:glEsVersion="0x20000" android:required="true" />
      <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
@@ -20,7 +20,7 @@ index ad26598b87d629d58532e6f5a2da03dcca9a1227..b97d9d1bc1535728704d1928b0bb2225
              </intent-filter>
          </receiver>
 -        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.mojang.minecraftearth.firebaseinitprovider" android:initOrder="100" />
-+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="dev.projectearth.prod.firebaseinitprovider" android:initOrder="100" />
++        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="nyako.chikyu.release.firebaseinitprovider" android:initOrder="100" />
          <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
              <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar" />
          </service>
@@ -31,9 +31,9 @@ index ad26598b87d629d58532e6f5a2da03dcca9a1227..b97d9d1bc1535728704d1928b0bb2225
 -                <action android:name="com.mojang.minecraftearth.intent.APPBOY_NOTIFICATION_OPENED" id="0" />
 -                <action android:name="com.mojang.minecraftearth.intent.APPBOY_PUSH_RECEIVED" id="1" />
 -                <action android:name="com.mojang.minecraftearth.intent.APPBOY_PUSH_DELETED" id="2" />
-+                <action android:name="dev.projectearth.prod.intent.APPBOY_NOTIFICATION_OPENED" id="0" />
-+                <action android:name="dev.projectearth.prod.intent.APPBOY_PUSH_RECEIVED" id="1" />
-+                <action android:name="dev.projectearth.prod.intent.APPBOY_PUSH_DELETED" id="2" />
++                <action android:name="nyako.chikyu.release.intent.APPBOY_NOTIFICATION_OPENED" id="0" />
++                <action android:name="nyako.chikyu.release.intent.APPBOY_PUSH_RECEIVED" id="1" />
++                <action android:name="nyako.chikyu.release.intent.APPBOY_PUSH_DELETED" id="2" />
              </intent-filter>
          </receiver>
          <service android:name="com.google.firebase.messaging.cpp.RegistrationIntentService" android:exported="false" />
