@@ -4,7 +4,7 @@ Date: Sat, 27 Feb 2021 12:19:17 -0600
 Subject: [PATCH] ch ru loc
 
 
-diff --git a/assets/resource_packs/genoa_base/texts/en_GB.lang b/assets/resource_packs/genoa_base/texts/en_GB.lang
+diff --git a/assets/resource_packs/genoa_base/texts/ru_RU.lang b/assets/resource_packs/genoa_base/texts/ru_RU.lang
 index 40cba1d35ae1421c4ee1b4175c2733474a505620..cd18ea92e1f1b28a744507a16de2a563b9203fa8 100644
 --- a/assets/resource_packs/genoa_base/texts/ru_RU.lang
 +++ b/assets/resource_packs/genoa_base/texts/ru_RU.lang
