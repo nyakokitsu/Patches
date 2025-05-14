@@ -19,7 +19,6 @@ index ad26598b87d6..b97d9d1bc153 100644
    xmlns:android="http://schemas.android.com/apk/res/android">
      <uses-feature android:glEsVersion="0x20000" android:required="true" />
      <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
- 
 @@ -130,7 +131,7 @@
                  <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
              </intent-filter>
