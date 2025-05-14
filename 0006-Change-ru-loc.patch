@@ -8,53 +8,50 @@ diff --git a/assets/resource_packs/genoa_base/texts/en_GB.lang b/assets/resource
 index 40cba1d35ae1421c4ee1b4175c2733474a505620..cd18ea92e1f1b28a744507a16de2a563b9203fa8 100644
 --- a/assets/resource_packs/genoa_base/texts/ru_RU.lang
 +++ b/assets/resource_packs/genoa_base/texts/ru_RU.lang
-@@ -1452,7 +1452,7 @@
- gui.resourcepacks=Наборы ресурсов...	#
+@@ -1452,7 +1452,7 @@ gui.resourcepacks=Наборы ресурсов...	#
  gui.submit=Отправить	#
  gui.playOffline=Автономная игра	#
--gui.signIn=Войти	#
+ gui.signIn=Войти	#
 -gui.genericNetworkError=Что-то пошло не так. Проверьте подключение к Интернету.	#
-+gui.signIn=Войти	#
 +gui.genericNetworkError=Сервер лежит или у вас дерьмовый интернет.	#
+ 
  updateScreen.update=Обновить	#
  updateScreen.title=Версия устарела	#
- @@ -6310,13 +6310,13 @@
- map.tappable.limit.content=Тебе удалось собрать так мно	#
+@@ -6310,13 +6310,13 @@ map.tappable.limit.content=Тебе удалось собрать так мно
  map.xp.increment=+%s XP	#
  map.ugcpermission.content=Вы не можете выполнить это действие из-за используемых параметров учетной записи Xbox Live. Параметры можно изменить в настройках конфиденциальности и безопасности в Интернете на Xbox.com.	#
+ 
 -sunset.overlay.header=Время до завершения проекта	#
 +sunset.overlay.header=Спасибо, что играете на серверах Chikyu!	#
- sunset.overlay.button=Информация о завершения проекта	#
+ sunset.overlay.button=Информация о завершении проекта	#
  sunset.overlay.button.redeem=Получить бесплатный экземпляр Minecraft	#
 -sunset.modal.title=Время до завершения проекта	#
 -sunset.modal.body=Спасибо, что играете в Minecraft Earth! Мы приняли нелегкое решение завершить поддержку Minecraft Earth 30 июня 2021 года. Спасибо за игру, надеемся увидеть вас в Minecraft!	#
 -sunset.modal.button.one=Информация о завершении проекта	#
 -sunset.modal.button.two=Полезная информация	#
 +sunset.modal.title=Спасибо, что играете на серверах Chikyu!	#
-+sunset.modal.body=Сервера работают на наработаках проекта ProjectEarth и Project-Genoa. Спасибо им за работу! Бла-бла-бла, мы никак не связаны с Mojang Studios или иными, все права принадлежат кому они принадлежат.	#
++sunset.modal.body=Сервера работают на наработаках проекта ProjectEarth и Project-Genoa. Спасибо им за работу! Бла-бла-бла, мы никак не связаны с Mojang Studios или иными, все права принадлежат кому они принадлежат. #
 +sunset.modal.button.one=Почитать о MC Earth	#
 +sunset.modal.button.two=Продолжить	#
- sunset.settings.button=Информация о завершения проекта	#
+ sunset.settings.button=Информация о завершении проекта	#
+ 
  ## NOTE: If you update the overlay text you must update NUM_LINES_OVERLAY or NUM_LINES_CHANGELOG in SunsetOverlayScreenController.cpp
- @@ -6382,10 +6382,10 @@
- modal.okay_i_guess=Ладно	#
+@@ -6382,10 +6382,10 @@ modal.okay_i_guess=Ладно	#
  modal.letsdoit=Сделаем это	#
  modal.record=Начать запись	#
--modal.sounds_good=Интересно!	#
+ modal.sounds_good=Интересно!	#
 -modal.good_to_know=Хорошо.	#
-+modal.sounds_good=Интересно!	#
 +modal.good_to_know=Принял.	#
  modal.informative=Содержательно!	#
--modal.gimme_gimme=Дай, дай	#
+ modal.gimme_gimme=Дай, дай	#
 -modal.uh_oh=Ой-ой!	#
-+modal.gimme_gimme=Дай, дай	#
 +modal.uh_oh=Блять	#
- modal.priced.action=%s–%s	####delimiting the price with action text, Examples: "30 - Purchase", "25 - Complete"
+ modal.priced.action=%s–%s		####delimiting the price with action text, Examples: "30 - Purchase", "25 - Complete"
  modal.content_not_enough_rubies=Вам нужно больше рубинов (еще %d шт.).	#
  modal.content_no_ruby_purchase=Рубины больше нельзя купить по причине завершения проекта Minecraft Earth.	#
-@@ -6409,7 +6409,7 @@
- skins.picker.countPlural=(%s)	#
+@@ -6409,7 +6409,7 @@ skins.picker.countPlural=(%s)	#
  skins.picker.confirm=Выбрать	#
+ 
  maintenance.maintenance.header=Технические работы	#
 -maintenance.maintenance.context=В игре ведутся технические работы. Повторите попытку позже.	#
 +maintenance.maintenance.context=В игре ведутся технические работы. Повторите попытку позже. desu	#
