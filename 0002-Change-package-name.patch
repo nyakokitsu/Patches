@@ -15,9 +15,9 @@ index ad26598b87d6..b97d9d1bc153 100644
  <?xml version="1.0" encoding="utf-8"?>
 -<manifest android:versionCode="2020121703" android:versionName="0.33.0" android:installLocation="preferExternal" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.mojang.minecraftearth" platformBuildVersionCode="29" platformBuildVersionName="10"
 +<manifest android:versionCode="2020121703" android:versionName="0.33.0" android:installLocation="preferExternal" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="nyako.chikyu.release" platformBuildVersionCode="29" platformBuildVersionName="10"
-         xmlns:android="http://schemas.android.com/apk/res/android">
- <uses-feature android:glEsVersion="0x20000" android:required="true" />
- <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
+   xmlns:android="http://schemas.android.com/apk/res/android">
+     <uses-feature android:glEsVersion="0x20000" android:required="true" />
+     <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
 @@ -130,7 +131,7 @@
                  <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
              </intent-filter>
