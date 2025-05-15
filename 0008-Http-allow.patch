@@ -8,6 +8,7 @@
          <trust-anchors>
              <certificates src="system" />
              <certificates src="user" />
+
 --- a/smali/com/microsoft/onlineid/internal/transport/HttpsURLConnectionWrapper.smali
 +++ b/smali/com/microsoft/onlineid/internal/transport/HttpsURLConnectionWrapper.smali
 @@ -4,7 +4,7 @@
